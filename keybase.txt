@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/charlier
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://chrl.io
+  * I am charlier (https://keybase.io/charlier) on keybase.
+  * I have a public key with fingerprint 47E2 9FE4 106D 387A A059  1080 69BE 91CC F1C4 D72B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011384dac23a1d9c45c932a47a3f9077b88e05e0c27cbe50e776455bde12ff71c80a",
+            "fingerprint": "47e29fe4106d387aa059108069be91ccf1c4d72b",
+            "host": "keybase.io",
+            "key_id": "69be91ccf1c4d72b",
+            "kid": "01011384dac23a1d9c45c932a47a3f9077b88e05e0c27cbe50e776455bde12ff71c80a",
+            "uid": "ddb9a67fef657b703314306786f5b419",
+            "username": "charlier"
+        },
+        "revoke": {
+            "sig_ids": [
+                "160246eccb2c2ca3b43f7ab3a79c03726385f9d242164e8571359fe63142ac460f"
+            ]
+        },
+        "service": {
+            "hostname": "chrl.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1456553034,
+    "expire_in": 157680000,
+    "prev": "7c689a6ec530f95d4e948b2971553f38dd295874ac8475bb22513bc53c88d34b",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMJrAnicrZJvaJVVHMfv3B/b0JmrKCmKnpfuqufvc865BoaYgYkVQojzejvnPOfZ
+nna9z73Pfe7NMeYfolX+qVYkQ01R1DGYWkxjsoJNfZNNRFBKBipSgTQGhuuFiHSe
+9edVLztvDufw/X5+X77nXJxfm2qq6e8Xm69/0Tpc88P4dCX11tWX1nQ7KvS6nEy3
+02lmN5P3TDnOdQaek3EABBBiTjypEZbQE5pQLTCShEnsC8CY4twAaoBGTCtDgWHM
+JZQqz0Dk+wxqDqSTdvyg0G6iYhQUYoslzCDhGwKB62HOpARUQMCBK5QRUGsfauIx
+pKyxIywnDhtOybJZGoT2zh5ys/H+Q/8/567M4jxPCeky3/guZYoBjCHBwGXc9aki
+UCTCsokKcouxat0ho3xgIqcn7USmGnaapNdy0G5Dl51MmwNdgIhrtFZIIy2xIthn
+UmHJhAaYIRdz6gsPEQRdYjhlEFNbl2unIqmJC3wna9l2YjXQs/CkpX+nR/m/aipG
+YRzqMG8vO+K4mEnyxF3FRPSuUbm/7TkVFDz7OtZQNVE5CAtOBlqljoOEBwl1KcUA
+k7RjthaDyOSCREGZy4FdyRhTtUimXW5LMtqKfUE9YgThCgkGrd3H3POQoJwRqTlh
+VCmEKMTKqjXnHibJ25VNqRBatoXGst0ybWcFGVci4/ScH9tUl6ppSjXUz0m+baqp
+8fF/PvOjPXMf1PaMX4VbK5nn9ptK3fSzq0eDc/efmjyycaQh/UtpLmw++t296Zb7
+Y+s2nFi0dmXLve9/65+3/G7DvsZraHLg5MCL85ZXex69uWh85NjgT4+dWv/Hwe3s
+4aG+82e/me6dPL1r5tfmZ+4smPm98M5AS2rjUqXg7tKlicPZY5s+2vZArBp+/dXb
+u/peaf+5e1njmsW7L7fiJ9tSY3u/uiX6Xq7fZ56++d6ZE/nBF6Zuri2OPj/07dTM
+heaR9cf37My27q2+vV19Fm5bd3DViompG6M3ujb82FD32teXPi4Nfdl7cfWn2bvZ
+2odXdgzWf7jzUCb1+fAH6U8mVqbf7yi1zbng9+bfOHC8+4n5S5qGFv4JwIdWwQ==
+=yPA/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/charlier
+
+==================================================================
