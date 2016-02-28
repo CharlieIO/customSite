@@ -7,6 +7,10 @@ a {
     color:#546A78; 
 }
 
+#hide{
+    display: none;
+}
+
 .first {
 text-indent: 3em;
 }

@@ -38,5 +38,5 @@ app.controller('ContentController', function(){
 })();
 
 jQuery(document).ready( function(){
-    jQuery('body').fadeIn(500);
+    jQuery('#hide').fadeIn(500);
 } );
