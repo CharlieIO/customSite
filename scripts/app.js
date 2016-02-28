@@ -37,6 +37,6 @@ app.controller('ContentController', function(){
 })
 })();
 
-jQuery(document).ready( function(){
-    jQuery('#hide').fadeIn(500);
-} );
+$(document).ready(function() {
+  document.getElementsByTagName("html")[0].style.visibility = "visible";
+});
