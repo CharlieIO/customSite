@@ -1,7 +1,3 @@
-$(window).load(function() {
-    $("body").fadeIn("slow");
-});
-
 (
     function ( ) {
     
@@ -25,7 +21,7 @@ var tabs = {
         },
         about:{
                 tabname:"About",
-                description:"My name is Charlie Rodiger. I am a 19 year-old Computer Science Student from Wilton, CT. At Colgate, I am Treasurer of the Colgate Hackers. I also ski/snowboard, run, play on the Colgate Men's Club Soccer team, and I am certified as a soccer referee. As well, I volunteer 40 hours per month working with the Southern Madison County Volunteer Ambulance Corps. But, beyond my classes and extracurriculars, I spend the majority of my time coding, and making cool things.",
+                description:"My name is Charlie Rodiger. I am a 19 year-old Computer Science Student at Colgate University from Wilton, CT. At Colgate, I am Treasurer of the Colgate Hackers. I also ski/snowboard, run, play on the Colgate Men's Club Soccer team, and I am certified as a soccer referee. As well, I volunteer 40 hours per month working with the Southern Madison County Volunteer Ambulance Corps. But, beyond my classes and extracurriculars, I spend the majority of my time coding, and making cool things.",
                 skills:"Python, Java, CSS, HTML, SQL, and JavaScript",
                 show:false
         },
@@ -40,3 +36,7 @@ app.controller('ContentController', function(){
     this.tabs = tabs;
 })
 })();
+
+jQuery(document).ready( function(){
+    jQuery('body').fadeIn(500);
+} );
