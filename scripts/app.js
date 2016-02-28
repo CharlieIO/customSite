@@ -8,20 +8,20 @@ var tabs = {
                             link:"https://github.com/Charrod/csgoteambot",
                             tools:"Python, PostgreSQL, Heroku, and Morph.io",
                             show:false,
-                },proj2:{
+                }, proj2:{
                             name:"rodiger.io / chrl.io",
                             description:"My personal portfolio site. You are using it! AngularJS allows navigation to be snappy without the need for page reloads. Built from scratch.",
                             link:"https://github.com/Charrod/customSite",
                             tools: "HTML, CSS, Twitter Bootstrap, and AngularJS",
-                        }
+                }
         },
-            about:{
+        about:{
                 tabname:"About",
-                description:"My name is Charlie Rodiger, and I am a 19 year-old CS Student from Wilton, CT. At Colgate, I am Treasurer of the Colgate Hackers. I also ski/snowboard, run, play on the Colgate Men's Club Soccer team, and I am certified as a soccer referee. As well, I volunteer 40 hours per month working with the Southern Madison County Volunteer Ambulance Corps. But, beyond my classes and extracurriculars, I spend the majority of my time coding, and making cool things.",
+                description:"My name is Charlie Rodiger. I am a 19 year-old Computer Science Student from Wilton, CT. At Colgate, I am Treasurer of the Colgate Hackers. I also ski/snowboard, run, play on the Colgate Men's Club Soccer team, and I am certified as a soccer referee. As well, I volunteer 40 hours per month working with the Southern Madison County Volunteer Ambulance Corps. But, beyond my classes and extracurriculars, I spend the majority of my time coding, and making cool things.",
                 skills:"Python, Java, CSS, HTML, SQL, and JavaScript",
                 show:false
         },
-            home:{
+         home:{
                 tabname:"Home",
                 show:true
         }
