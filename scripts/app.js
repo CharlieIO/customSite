@@ -1,9 +1,12 @@
-(function ( ) {
+(
+    function ( ) {
     
 var app = angular.module('site', []);
     
 var tabs = {
-        projects:{proj1:{
+        title:"Charlie Rodiger",
+        projects:{
+                proj1:{
                             name:"CSGOTeamBot",
                             description:"A bot for Reddit, specifically the /r/GlobalOffensive Subreddit, powered by HLTV.org's Counter Strike: Global Offensive statistics. Access specific team and player stats, instantly. Scrapes HLTV for stats using Python and Morph.io, updates the PostgreSQL database, and returns the stats in a beautifully formatted new comment. Successfully augmented over 750 discussions.",
                             link:"https://github.com/Charrod/csgoteambot",

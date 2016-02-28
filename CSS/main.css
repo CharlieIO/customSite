@@ -101,15 +101,15 @@ a:hover {
     margin-top: -75px;
 }
 ::selection {
-  background: red; 
+  background: white; 
 }
 ::-moz-selection {
-  background: red;
+  background: white;
 }
 
 #blinking-cursor {
   font-weight: 100;
-  font-size: 45px;
+  font-size: 47px;
   color: #FFFFFF;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;

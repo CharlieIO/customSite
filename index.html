@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html ng-app="site">
+<html ng-app="site" ng-controller="ContentController as content">
 <head>
-    <title>Charlie Rodiger</title>
+    <title>{{content.title}}</title>
     <link href='https://fonts.googleapis.com/css?family=Kadwa:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="CSS/main.css" />
 </head> 
-        <div class="nav"></div>
 <body>
 <script type="application/javascript" src="scripts/angular.min.js"></script>
 <script type="application/javascript" src="scripts/app.js"></script>
     <div class="contain">
-        <h1 id="light"> Charlie </h1>
-        <h1 id="dark"> Rodiger <span id="blinking-cursor">|</span></h1>
+        <h1 id="light">Charlie<h1 id="dark">Rodiger<span id="blinking-cursor">|</span></h1></h1>
         <div class="sub">DEVELOPER AND CS STUDENT AT COLGATE UNIVERSITY</div>
     </div>
     <div class="container" ng-controller="ContentController as content"> 
         <div id="home" ng-show="content.tabs.home.show">
-            <a href="javascript://" ng-click="content.tabs.about.show = !content.about.show;content.tabs.projects.proj1.show = false;content.tabs.home.show = false">About</a> / <a href="javascript://" ng-click="content.tabs.about.show = false;content.tabs.projects.proj1.show = true;content.tabs.home.show = false">Projects</a> / <a target="_blank" href="https://github.com/Charrod">GitHub</a> / <a target="_blank" href="/resume.pdf">Resume</a> / <a href="mailto:crodiger@colgate.edu">Email</a> / <a target="_blank" href="https://keybase.io/charlier">KeyBase</a>
+            <a href="javascript://" ng-click="document.title=About;content.title = About;content.tabs.about.show = true;content.tabs.projects.proj1.show = false;content.tabs.home.show = false">About</a> / <a href="javascript://" ng-click="content.tabs.about.show = false;content.tabs.projects.proj1.show = true;content.tabs.home.show = false">Projects</a> / <a target="_blank" href="https://github.com/Charrod">GitHub</a> / <a target="_blank" href="/resume.pdf">Resume</a> / <a href="mailto:crodiger@colgate.edu">Email</a> / <a target="_blank" href="https://keybase.io/charlier">KeyBase</a>
         </div>
         <div id="about" class="tab" ng-show="content.tabs.about.show">
             <h1 class="title"><a class="back" href="javascript://" ng-click="content.tabs.about.show = !content.tabs.about.show;content.tabs.home.show = true"><</a>{{content.tabs.about.tabname}}</h1>
