@@ -80,9 +80,8 @@ a:hover {
     
 }
 .back{
-    position: absolute;
-    top: -101px;
-    left: 230px;
+    position: relative;
+    left: -10px;
 }
 
 .tab{
@@ -133,7 +132,7 @@ a:hover {
     color: transparent;
   }
   50% {
-    color: #F8F8FF;
+    color: #FFFFFF;
   }
 }
 

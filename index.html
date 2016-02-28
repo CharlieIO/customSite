@@ -10,6 +10,8 @@
 </head> 
         <div class="nav"></div>
 <body>
+<script type="application/javascript" src="scripts/angular.min.js"></script>
+<script type="application/javascript" src="scripts/app.js"></script>
     <div class="contain">
         <h1 id="light"> Charlie </h1>
         <h1 id="dark"> Rodiger <span id="blinking-cursor">|</span></h1>
@@ -25,16 +27,14 @@
             <p class="tools">Languages: {{content.tabs.about.skills}}</p>
         </div>
         <div id="projects" class="tab" ng-show="content.tabs.projects.proj1.show">
-            <h1 class="title"><a class="back" href="javascript://" ng-click="content.tabs.projects.proj1.show = !content.tabs.projects.proj1.show.show;content.tabs.projects.proj1.show = false;content.tabs.home.show = true" ng-hide="content.tabs.home.show"> < </a>Projects</h1>
+            <h1 class="title"><a class="back" href="javascript://" ng-click="content.tabs.projects.proj1.show = false;content.tabs.home.show = true" ng-hide="content.tabs.home.show"> < </a>Projects</h1>
                 <div ng-repeat="tab in content.tabs.projects" ng-show="content.tabs.projects.proj1.show">
-                    <h1 class="title" style="color:white"><a style="color:white" href="{{tab.link}}">{{tab.name}}</a></h1>
+                    <h1 class="title"><a style="color:white" href="{{tab.link}}">{{tab.name}}</a></h1>
                     <a href="{{tab.link}}" class="sublink">View on GitHub</a>
                     <p>{{tab.description}}</p>
                     <p class="tools">Tools used: {{tab.tools}}</p>
                     <hr />
                 </div></div>
     </div>
-<script type="application/javascript" src="scripts/angular.min.js"></script>
-<script type="application/javascript" src="scripts/app.js"></script>
 </body>
 </html>
