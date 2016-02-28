@@ -37,6 +37,7 @@ app.controller('ContentController', function(){
 })
 })();
 
-$(document).ready(function() {
-  document.getElementsByTagName("html")[0].style.visibility = "visible";
+$(window).load(function () {
+    $('.no-fouc').removeClass('no-fouc');
+    $('.bg').removeClass('bg');
 });

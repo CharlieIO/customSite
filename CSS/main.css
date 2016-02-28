@@ -3,12 +3,12 @@ html {
     background: #00171F;
 }
 
-a {
-    color:#546A78; 
+.hideAll  {
+    visibility:hidden;
 }
 
-#hide{
-    display: none;
+a {
+    color:#546A78; 
 }
 
 .first {
