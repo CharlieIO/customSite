@@ -39,5 +39,4 @@ app.controller('ContentController', function(){
 
 $(window).load(function () {
     $('.no-fouc').removeClass('no-fouc');
-    $('.bg').removeClass('bg');
 });
