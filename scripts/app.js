@@ -8,7 +8,7 @@ var tabs = {
         projects:{
                 proj1:{
                             name:"CSGOTeamBot",
-                            description:"A bot for Reddit, specifically the /r/GlobalOffensive Subreddit, powered by HLTV.org's Counter Strike: Global Offensive statistics. Access specific team and player stats, instantly. Scrapes HLTV for stats using Python and Morph.io, updates the PostgreSQL database, and returns the stats in a beautifully formatted new comment. Successfully augmented over 750 discussions.",
+                            description:"A bot for Reddit, specifically the /r/GlobalOffensive Subreddit, powered by HLTV.org's Counter Strike: Global Offensive statistics. Access specific team and player stats, instantly. Scrapes HLTV for stats using Python and Morph.io, updates the PostgreSQL database, and returns the stats in a beautifully formatted new comment. Successfully enhanced over 750 discussions.",
                             link:"https://github.com/Charrod/csgoteambot",
                             tools:"Python, PostgreSQL, Heroku, and Morph.io",
                             show:false,
@@ -39,4 +39,5 @@ app.controller('ContentController', function(){
 
 $(window).load(function () {
     $('.no-fouc').removeClass('no-fouc');
+    $('.no-fouc' ).css( "visibility", "visible" );
 });

@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="CSS/main.css" />
     <style type="text/css">
-    .no-fouc {display: none;}
+    .no-fouc {visibility:hidden;}
     </style>
     <script type="text/javascript">
     document.documentElement.className = 'no-fouc';
@@ -30,7 +30,7 @@
         </div>
         <div id="about" class="tab" ng-show="content.tabs.about.show">
             <h1 class="title"><a class="back" href="javascript://" ng-click="content.tabs.about.show = !content.tabs.about.show;content.tabs.home.show = true"><</a>{{content.tabs.about.tabname}}</h1>
-            <p class="first">{{content.tabs.about.description}}</p>
+            <p id="first">{{content.tabs.about.description}}</p>
             <p class="tools">Languages: {{content.tabs.about.skills}}</p>
         </div>
         <div id="projects" class="tab" ng-show="content.tabs.projects.proj1.show">
