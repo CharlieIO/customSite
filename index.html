@@ -24,7 +24,7 @@
         <h1 id="light">Charlie<h1 id="dark">Rodiger<span id="blinking-cursor">|</span></h1></h1>
         <div id="sub">DEVELOPER AND CS STUDENT AT COLGATE UNIVERSITY</div>
     </div>
-    <div class="container" ng-controller="ContentController as content"> 
+    <div id="container" ng-controller="ContentController as content"> 
         <div id="home" ng-show="content.tabs.home.show">
             <a href="javascript://" ng-click="document.title=About;content.title = About;content.tabs.about.show = true;content.tabs.projects.proj1.show = false;content.tabs.home.show = false">About</a> / <a href="javascript://" ng-click="content.tabs.about.show = false;content.tabs.projects.proj1.show = true;content.tabs.home.show = false">Projects</a> / <a target="_blank" href="https://github.com/Charrod">GitHub</a> / <a target="_blank" href="/resume.pdf">Resume</a> / <a href="mailto:crodiger@colgate.edu">Email</a> / <a target="_blank" href="https://keybase.io/charlier">KeyBase</a>
         </div>
