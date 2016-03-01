@@ -13,11 +13,15 @@ html {
     visibility:hidden;
 }
 
+hr {
+    border-color: #000406;
+}
+
 body{
     background-color:#00171F; 
 }
 
-a {
+a, .tools {
     color:#546A78; 
 }
 
@@ -91,9 +95,7 @@ a:hover {
     height: auto;
 }
 
-#about{
-    
-}
+
 .back{
     position: relative;
     left: -10px;

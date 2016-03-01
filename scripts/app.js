@@ -16,7 +16,7 @@ var tabs = {
                             name:"rodiger.io / chrl.io",
                             description:"My personal portfolio site. You are using it! AngularJS allows navigation to be snappy without the need for page reloads. Built from scratch.",
                             link:"https://github.com/Charrod/customSite",
-                            tools: "HTML, CSS, Twitter Bootstrap, and AngularJS",
+                            tools: "Debian, Apache, HTML, CSS, Twitter Bootstrap, and AngularJS",
                 }
         },
         about:{
